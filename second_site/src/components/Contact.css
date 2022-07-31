@@ -1,0 +1,13 @@
+#Contact {
+  left: 300vw;
+  top: 100vh;
+}
+
+
+.auxilaryContainer{
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+.smallButton{
+  transform: scale(0.6)
+}

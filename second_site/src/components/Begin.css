@@ -1,0 +1,16 @@
+#beginPage {
+    display: var(--begin);
+    opacity: var(--beginopacity);
+    transition: all 500ms ease 250ms;
+    position: fixed;
+    left:0;
+    top:0;
+    background-color: rgba(0, 0, 0 ,0.5);
+    backdrop-filter: blur(10px);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    display: grid;
+    place-items: center;
+    
+}

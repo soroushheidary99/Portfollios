@@ -1,0 +1,45 @@
+.navbtn {
+    position: fixed;
+    backdrop-filter: blur(2px);
+    background: rgba(0,0,0,.4);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: all 400ms ease;
+    opacity: 0;
+    font-family: inherit;
+    font-size: 2rem;
+    color: white;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+  
+.navbtn:hover {
+    opacity: 1;
+  }
+
+#left, #right{
+    width: 10vw;
+    height: calc(-2rem + 100vh);
+    top: 0;
+}
+
+#up, #down{
+    width: calc(-2rem + 100vw);
+    height: 10vh;
+    left: 0px;
+}
+
+#up{
+    right: calc(10vh + 1rem);
+    width: calc(-3rem + 90vw)
+}
+
+#right{
+    top: calc(10vh + 1rem);
+    height: calc(-3rem + 90vh);
+    transform: translate(calc(-2rem + 90vw), 0);
+}
+#down{
+    transform: translate(0, calc(-2rem + 90vh));
+}

@@ -1,0 +1,15 @@
+#Home{
+    top:100vh;
+    left:100vw;
+}
+
+.container__home > p{
+    transform: translate(20vw, 20vh);
+    margin: 0.5rem;
+}
+
+#p2{
+    text-indent: 6rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}

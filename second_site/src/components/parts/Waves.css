@@ -1,0 +1,66 @@
+  
+  .box {
+    position: absolute;
+    top: 0;
+    transform: rotate(80deg);
+    left: 20%;
+  }
+  
+  .wave {
+    position: fixed;
+    opacity: 0.7;
+    width: 1200px;
+    height: 1000px;
+    border-radius: 43%;
+  }
+  
+  .wave.one {
+    animation: rotate 5000ms infinite linear;
+    background: var(--color-secondary);
+  }
+  
+  .wave.two {
+    animation: rotate 7000ms infinite linear;
+    background: var(--color-secondary);
+  }
+  
+  .wave.three {
+    animation: rotate 9000ms infinite linear;
+    background-color: var(--color-secondary);
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    from {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+
+
+
+
+  .waveChanger1{
+    transform: translate(100%)
+  }
+  
+  
+  .waveChanger2{
+    transform: translate(50%, 50%);
+    border-radius: 0px;
+  }
+  
+  
+  .waveChanger3{
+    transform: translate(100%);
+    aspect-ratio: 1/2;
+  }
+  
+  
+  .waveChanger4{
+    transform: skewX(40deg);
+    
+  }

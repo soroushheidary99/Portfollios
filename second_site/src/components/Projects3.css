@@ -1,0 +1,13 @@
+#Projects3 {
+  left: 100vw;
+  top: 400vh;
+}
+
+
+.auxilaryContainer{
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+.smallButton{
+  transform: scale(0.6)
+}

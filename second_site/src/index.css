@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: roboto;
+  font-weight: 100;
+  font-size: 4rem;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  
+  
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+:root{
+  --color-primary: indigo;
+  --color-secondary: yellow;
+  --color-tertiary: #55c79d;
+  --color-tertiary-bright: #00ffa2;
+  --color-secondary-light: rgba(255, 255, 0, 0.9);
+  --color-secondary-lighter: rgba(255, 255, 0, 0.6);
+  --begin: grid;
+  --beginopacity: 1;
+  --mapDisplay: none;
+  --mapOpacity: 0;
+}
+
+section{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;  
+  background-color: var(--color-primary);
+  overflow: hidden;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: 100;
+  color: white
+}
+
+h1, h2 {
+  font-size: 10vw;
+  font-weight: 300;
+  color: var(--color-tertiary-bright)
+}
+
+h3, h4, h5, h6{
+  font-weight: 100;
+  color: var(--color-tertiary-bright)
+}
+
+.container{
+  padding: 15vh 15vw;
+}
