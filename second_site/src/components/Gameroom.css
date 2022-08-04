@@ -1,13 +1,11 @@
 #Gameroom {
-  left: 400vw;
+  left: 300vw;
   top: 400vh;
+  position: relative;
+}
+
+.container__game{
+	padding: 5vh 0vw 0vh 0vw;
 }
 
 
-.auxilaryContainer{
-  padding: 1rem 1rem 1rem 2rem;
-}
-
-.smallButton{
-  transform: scale(0.6)
-}

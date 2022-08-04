@@ -16,7 +16,7 @@ function Begin() {
         let t1 = setTimeout(() => {document.documentElement.style.setProperty('--beginopacity', '0')}, '0');
         let t2 = setTimeout(() => {document.getElementById("beginPage").remove()}, '750');
         return (
-            t1.then(t2)
+            () => t1.then(t2)
         ) 
     }
         

@@ -1,21 +1,15 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Gameroom.css'
-import Button from './parts/Button.jsx'
-import Waves from './parts/Waves.jsx'
-import Shapes from './parts/Shapes.jsx'
-import Checkbox from './parts/Checkbox.jsx'
+import Gameoflife from './game/Gameoflife.jsx'
 
 const Gameroom = () => {
+    
     return (<>
-
-        <section id="Gameroom">
-            <div className='auxilaryContainer'>
-                <h3>Game Room :D</h3>
-                <Waves />
-                
+        <section id='Gameroom'>
+            <div className='container__game'>
+                <Gameoflife />
             </div>
         </section> 
-        
     </>)
 }
 

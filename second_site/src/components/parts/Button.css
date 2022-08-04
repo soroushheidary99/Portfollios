@@ -1,11 +1,11 @@
     .coolBeans {
-    background-color: #4b0082;
+    background-color: var(--color-primary);
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
     border: 2px solid currentColor;
-    border-radius: 3rem;
-    color: #ff0;
+    border-radius: inherit;
+    color: var(--color-secondary);
     overflow: hidden;
     padding: 1rem 2rem;
     position: relative;
@@ -15,8 +15,8 @@
     z-index: 0;
   }
   .coolBeans::after {
-    background-color: #ff0;
-    border-radius: 3rem;
+    background-color: var(--color-secondary);
+    border-radius: inherit;
     content: '';
     display: block;
     height: 100%;
@@ -35,7 +35,16 @@
   }
   .coolBeans:hover {
     border: 2px solid transparent;
-    color: #4b0082;
+    color: var(--color-primary);
     transform: scale(1.1);
     will-change: all;
   }
+
+  .coolBeans:active {
+    transform: scale(1.2);
+  }
+
+
+  
+    
+  

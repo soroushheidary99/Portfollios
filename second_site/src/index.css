@@ -6,6 +6,11 @@
     padding: 0;
     border: 0;
     outline: 0;
+    background-color: var(--color-primary)
+}
+
+section > * {
+  background-color: transparent;
 }
 
 body {
@@ -18,6 +23,7 @@ body {
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  overflow: hidden;
   
   
 }
@@ -32,12 +38,16 @@ html{
 }
 
 :root{
+  /* --color-primary: rgb(142, 255, 253);
+  --color-secondary: rgba(211, 16, 65, 0.785);
+  --color-tertiary: rgb(4, 0, 90);
+  --color-tertiary-bright: rgb(34, 0, 156);
+  --color-p: black; */
   --color-primary: indigo;
   --color-secondary: yellow;
   --color-tertiary: #55c79d;
-  --color-tertiary-bright: #00ffa2;
-  --color-secondary-light: rgba(255, 255, 0, 0.9);
-  --color-secondary-lighter: rgba(255, 255, 0, 0.6);
+  --color-tertiary-bright: #00ffa2; 
+  --color-p: white;
   --begin: grid;
   --beginopacity: 1;
   --mapDisplay: none;
@@ -60,15 +70,28 @@ p {
 
 h1, h2 {
   font-size: 10vw;
-  font-weight: 300;
+  font-weight: 500;
   color: var(--color-tertiary-bright)
 }
 
 h3, h4, h5, h6{
-  font-weight: 100;
+  font-weight: 300;
   color: var(--color-tertiary-bright)
 }
 
 .container{
   padding: 15vh 15vw;
+}
+
+button{
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  
+}
+p{
+  color: var(--color-p)
 }

@@ -16,8 +16,7 @@ import './App.css';
 
 function App() {
   return (<>
-    <Begin />
-
+    {/* <Begin /> */}
     <About />
     <Home />
     <Services />
@@ -27,7 +26,7 @@ function App() {
     <Projects1 />
     <Projects2 />
     <Projects3 />
-
+    
     <Navmap />
     <Navminimap />
     

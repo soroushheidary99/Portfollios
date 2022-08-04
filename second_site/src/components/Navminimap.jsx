@@ -44,21 +44,30 @@ function Navminimap() {
             t1 = setTimeout(() => {document.documentElement.style.setProperty('--mapDisplay', 'grid')}, '0');
             }
         return (
-            t1.then(t2)
+            () => t1.then(t2)
             ) 
         }
     return (
         <>
-            <button onClick={() => MapToggle()} className='mapGrid'><BsFillPinMapFill/></button>    
-            <gridmap id='minimap'>
-                <a className='cells'></a>
-                <a className='cells'></a>
-                <a className='cells'></a>
-                <a className='cells'></a>
-                <a className='cells'></a>
+            <button onClick={() => MapToggle()} className='mapGrid'><BsFillPinMapFill className='icons'/></button> 
+            
+            <div className='gridmap' id='minimap'>
+                <div class='mapdescription'>
+                    <div className='desc'><RiHome5Line className='icons'/> Home</div>
+                    <div className='desc'><GiMuscleUp className='icons'/> Skills</div>
+                    <div className='desc'><RiContactsLine className='icons'/> About</div>
+                    <div className='desc'><AiOutlinePhone className='icons'/> Contact</div>
+                    <div className='desc'><RiServiceLine className='icons'/> Services</div>
+                    <div className='desc'><FaLaptopCode className='icons'/> Projects</div>
+                </div>
+                <a className='cells desccell'></a>
+                <a className='cells desccell'></a>
+                <a className='cells desccell'></a>
+                <a className='cells desccell'></a>
+                <a className='cells desccell'></a>
                 <a className='cells'></a>
                 <a href='#Home' className='cells'><RiHome5Line className='icon-big'/></a>
-                <a href='#About' className='cells'><RiContactsLine /></a>
+                <a href='#About' className='cells'><RiContactsLine className='icons' /></a>
                 <a href='#Contact' className='cells'><AiOutlinePhone className='icon-big'/></a>
                 <a className='cells'></a>
                 <a className='cells'></a>
@@ -66,9 +75,9 @@ function Navminimap() {
                 <a className='cells'></a>
                 <a className='cells'></a>
                 <a className='cells'></a>
-                <a href='#Projects1' className='cells'><FaLaptopCode /></a>
+                <a href='#Projects1' className='cells'><FaLaptopCode className='icons' /></a>
                 <a href='#Services' className='cells'><RiServiceLine className='icon-big' /></a>
-                <a href='#Projects2' className='cells'><FaLaptopCode /></a>
+                <a href='#Projects2' className='cells'><FaLaptopCode className='icons' /></a>
                 <a className='cells'></a>
                 <a className='cells'></a>
                 <a className='cells'></a>
@@ -76,7 +85,7 @@ function Navminimap() {
                 <a className='cells'></a>
                 <a className='cells'></a>
                 <a href='#Gameroom' className='cells'><RiGameLine className='icon-big'/></a>
-            </gridmap>
+            </div>
         </>
     )
 }

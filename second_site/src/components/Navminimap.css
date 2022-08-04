@@ -1,3 +1,8 @@
+
+.icons{
+    background-color: transparent;
+}
+
 .mapGrid {
     position: fixed;
     display: block;
@@ -18,6 +23,7 @@
     font-family: inherit;
     font-size: 1rem;
 }
+
 .mapGrid:hover{
     opacity: 0.8;
     color: black;
@@ -27,7 +33,7 @@
     transform: scale(5);
 }
 
-gridmap{
+.gridmap{
     transition: all 300ms ease;
     display: var(--mapDisplay);
     opacity: var(--mapOpacity);
@@ -68,5 +74,39 @@ gridmap{
 }
 
 .icon-big{
-    transform:scale(1.2)
+    transform:scale(1.2);
+    background-color: transparent;
+}
+
+.desccell{
+    background-color: transparent;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.desccell:hover{
+    background-color: transparent;
+    color: white;
+}
+.desccell:active{
+    transform: scale(1);
+}
+
+.desc{
+    background-color: transparent;
+    font-size: 1rem;
+    color: white;
+}
+
+.mapdescription{
+    position: fixed;
+    width: 100%;
+    top: 2vh;
+    background-color: transparent;
+    align-items: center;
+    place-content: center;
+    place-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }

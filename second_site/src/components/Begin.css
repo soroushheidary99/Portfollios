@@ -12,5 +12,17 @@
     z-index: 1000;
     display: grid;
     place-items: center;
-    
 }
+
+#BeginButton{
+    opacity: 1;
+    transition: all 500ms ease;
+}
+
+
+#BeginButton:focus{
+    transform: scale(10);
+    opacity: 0;
+    filter: blur(10px)
+}
+

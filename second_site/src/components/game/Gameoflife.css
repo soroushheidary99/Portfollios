@@ -1,0 +1,30 @@
+.gamegrid{
+  background-color: var(--color-primary);
+  border: 2px dashed var(--color-tertiary);
+  width: fit-content;
+  height: fit-content;
+}
+
+.cell{
+  transition: all 0ms ease-in-out;
+  box-shadow: inset 0px 0px 0px 1px var(--color-primary);
+}
+
+
+.container__buttons__game{
+  font-size: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+}
+
+.game__of__life{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+

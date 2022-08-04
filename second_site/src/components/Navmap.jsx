@@ -4,11 +4,13 @@ import './Navmap.css'
 
 function Navmap() {
     
-
-
+    function setDom(){
+        document.domain = 'http://localhost:3000';
+    }
+    
     const scrollBy = useScrollBy();
     return (
-        <>
+        <>  
             <button className='navbtn' id='down' onClick={() => scrollBy({ top: window.innerHeight, behavior: "smooth" })}>down</button>
             <button className='navbtn' id='up' onClick={() => scrollBy({ top: -window.innerHeight, behavior: "smooth" })}> up </button>
             <button className='navbtn' id='right' onClick={() => scrollBy({ left: window.innerWidth, behavior: "smooth" })}> right </button>

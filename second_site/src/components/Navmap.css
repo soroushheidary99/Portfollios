@@ -22,9 +22,14 @@
     width: 10vw;
     height: calc(-2rem + 100vh);
     top: 0;
+    writing-mode: vertical-rl;
+}
+#left{
+    left: -8vw;
 }
 
 #up, #down{
+    top: 0px;
     width: calc(-2rem + 100vw);
     height: 10vh;
     left: 0px;
@@ -32,14 +37,28 @@
 
 #up{
     right: calc(10vh + 1rem);
-    width: calc(-3rem + 90vw)
+    width: calc(-3rem + 90vw);
+    top: -8vh;
 }
 
 #right{
     top: calc(10vh + 1rem);
     height: calc(-3rem + 90vh);
-    transform: translate(calc(-2rem + 90vw), 0);
+    left: calc(-2rem + 98vw);
 }
 #down{
-    transform: translate(0, calc(-2rem + 90vh));
+    top: calc(-2rem + 98vh);
+}
+
+#right:hover{
+    transform: translateX(-8vw);
+}
+#left:hover{
+    transform: translateX(8vw);
+}
+#up:hover{
+    transform: translateY(8vh);
+}
+#down:hover{
+    transform: translateY(-8vh);
 }
