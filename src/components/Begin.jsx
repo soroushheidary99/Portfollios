@@ -22,6 +22,7 @@ function Begin() {
         
     return (
         <div className='beginPage' id='beginPage'>
+            <p className='begin_p'>For some "yet" unknown reason, the mini map only works in firefox for now, so...</p>
             <p className='begin_p'>This site is still under development, and I am still new to the web dev world, for now it is suggested that you use a widescreen display</p>
             <p className='begin_p begin_p2'>Also be sure to checkout the game of life section, personally i think the Conway's Game of Life is beyond underrated</p>
             <div className='begin_buttons'>
