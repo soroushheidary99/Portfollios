@@ -22,7 +22,12 @@ const Projects3 = () => {
     'Pixelated game built as a term project for computer graphics course, some sprites are self-made', 
     'AI course final project, all the sprites are self made, the GUI was then used as a template for the rest of the class', ];
     const i_list = [pic_1, pic_2, pic_3, pic_4, pic_5, pic_6];
-    const l_list = ['https://github.com/', 'https://github.com/', 'https://github.com/', 'https://github.com/', 'https://github.com/', 'https://github.com/'];
+    const l_list = ['https://github.com/soroushheidary99/CS-SBU-DataMining-MSc-2022/tree/main/submits/96222031/test_project', 
+                    'https://github.com/soroushheidary99/Computational-Neuro-Science/tree/main/Project%202%20(Connected%20Populations)', 
+                    'https://github.com/soroushheidary99/CS-SBU-DataMining-MSc-2022/tree/main/submits/96222031/Project3', 
+                    'https://github.com/soroushheidary99/React-project', 
+                    'https://github.com/soroushheidary99/Game-Dev', 
+                    'https://github.com/soroushheidary99/AI-Agents'];
     const n_card = p_list.length;
 
     const [card, setCard] = useState(0);

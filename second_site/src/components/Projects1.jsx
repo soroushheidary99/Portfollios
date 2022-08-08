@@ -22,7 +22,12 @@ const Projects1 = () => {
      'using Word2Vec Models to create embedding systems for language models, visualizing the embedded space via dimension reduction techniques', 
      'time series forcasting, comparing different models such 4 variations of AutoRegressive models and LSTM based Approaches'];
     const i_list = [pic_1, pic_2, pic_3, pic_4, pic_5, pic_6];
-    const l_list = ['https://github.com/', 'https://github.com/', 'https://github.com/', 'https://github.com/', 'https://github.com/', 'https://github.com/'];
+    const l_list = ['https://github.com/soroushheidary99/Neural-Network-Course/tree/main/Project%202(CNN)', 
+                    'https://github.com/soroushheidary99/Neural-Network-Course/tree/main/Project%203(CNN%20%2B%20MLP)', 
+                    'https://github.com/soroushheidary99/Computer-Vision/tree/main/Leaf%20Detection%20Using%20CNN-SVM', 
+                    'https://github.com/soroushheidary99/Natural-Language-Processing/tree/main/NLP%20-%201', 
+                    'https://github.com/soroushheidary99/Natural-Language-Processing/tree/main/NLP%20-%202', 
+                    'https://github.com/soroushheidary99/Data-Mining-Course/tree/main/6%20-%20Time%20Series/Myself'];
     const n_card = p_list.length;
 
     const [card, setCard] = useState(2);

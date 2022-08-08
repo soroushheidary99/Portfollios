@@ -20,7 +20,12 @@ const Projects2 = () => {
      'Image Compression Using k-means Clustering Technique, comparing to other techniques in the paper such as DTC or CartesianSampling, the Image was reduced', 
      'Auditory Data Preprocessing and feature extraction, this project uses librosa library to extract features from auditory data such as spectograms and heatmaps, two main approaches are taken into account for emotion detection, one uses LSTMs without the engineered features, the other is a CNN over feature engineered features'];
     const i_list = [pic_1, pic_2, pic_3, pic_4, pic_5, pic_6];
-    const l_list = ['https://github.com/', 'https://github.com/', 'https://github.com/', 'https://github.com/', 'https://github.com/', 'https://github.com/'];
+    const l_list = ['https://github.com/soroushheidary99/CS-SBU-DataMining-MSc-2022/tree/main/submits/96222031/test_project', 
+                    'https://github.com/soroushheidary99/Data-Mining-Course/tree/main/3%20-%20Spotify%20Reccomender%20System', 
+                    'https://github.com/soroushheidary99/Data-Analysis-Transofrmation/tree/main/Covid-19%20Reports%20Analysis', 
+                    'https://github.com/', 
+                    'https://github.com/soroushheidary99/Computer-Vision/tree/main/CV%20Image%20Compression%20K-means', 
+                    'https://github.com/soroushheidary99/Neural-Network-Course/tree/main/Project%205%20(Audio%20Processing%20LSTM%2BCNN)'];
     const n_card = p_list.length;
 
     const [card, setCard] = useState(0);
