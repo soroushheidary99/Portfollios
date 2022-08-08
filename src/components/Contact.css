@@ -1,0 +1,146 @@
+#Contact {
+  left: 300vw;
+  top: 100vh;
+}
+
+
+.container.contact__container{
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 20%;
+}
+
+
+
+
+.contact__options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  
+}
+
+.contact__option > a{
+  background: transparent;
+  color: var(--color-p)
+}
+.contact__option > h6{
+  background: transparent;
+}
+
+.contact__option {
+  border: 1px solid transparent;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  width:20vw;
+  transition: var(--transition);
+}
+
+.contact__option:hover {
+  backdrop-filter: blur(4px);
+  border: 1px solid white;
+  background-color: var(--color-primary);
+  
+}
+
+.contact_option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-p);
+  background-color: transparent;
+}
+
+.contact__option a {
+  margin-top: 0.7rem;
+  display: block;
+  font-size: 0.8rem;
+}
+
+.cantact_button{
+  border-radius: 1rem;
+  transform-origin: (100%, 0%);
+  margin-top: 1rem;
+  transform: scale(0.5) translate(100%, -100%);
+  
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+input, textarea{
+  width: 100%;
+  padding:1.5rem;
+  border-radius: 0.5rem;
+  background:transparent;
+  padding: 0.5rem;
+  border: 2px solid var(--color-primary);
+  resize: none;
+  color: white;
+  font-family: inherit;
+  font-weight: 100;
+  background-color: rgba(0, 0, 0, 0.4)
+}
+
+
+
+
+
+
+@media screen and (max-width: 1024px){
+  .container.contact__container{
+      justify-content: center;
+      align-items: center;
+      grid-template-columns: 1fr;
+      gap: 4%
+  }
+  .contact__options {
+      height: 20vh;
+      flex-direction: row;
+      gap: 1.2rem;
+  }
+  .contact__option-icon {
+      font-size: 1.5rem;
+      margin-bottom: 0.2rem;;
+  }
+  #form_contact{
+      gap: 1rem;
+  }
+  .contact__option a {
+      margin-top: 0.3rem;
+      display: block;
+      font-size: 0.6rem;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+  .container.contact__container{
+      grid-template-columns: 1fr;
+      gap: -6rem;
+      padding-top: 0rem;
+      transform: translateY(-2rem);
+  }
+  .contact__options {
+      height: 20vh;
+      flex-direction: row;
+      gap: 0.8rem;
+      
+  }
+  .contact__option h4, h5{
+      font-size: 0.6rem;
+      font-weight: 100;
+  }
+  #form_contact{
+      gap: 0.5rem;
+      transform: translateY(-8rem);
+  }
+}

@@ -1,0 +1,11 @@
+#Gameroom {
+  left: 300vw;
+  top: 400vh;
+  position: relative;
+}
+
+.container__game{
+	padding: 5vh 0vw 0vh 0vw;
+}
+
+

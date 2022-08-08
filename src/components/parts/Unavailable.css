@@ -1,0 +1,56 @@
+
+
+@-webkit-keyframes MOVE-BG {
+	from {
+		-webkit-transform: translateX(0);
+	}
+	from { 
+		-webkit-transform: translateX(-100%);
+	}
+}
+
+@keyframes MOVE-BG {
+	from {
+		transform: translateX(0%);
+	}
+	from { 
+		transform: translateX(100%);
+	}
+}
+
+
+
+.Unavailable{
+  position: absolute;
+	width: 200%;
+  background: -webkit-repeating-linear-gradient(
+    145deg,
+    var(--color-tertiary) 1px,
+    var(--color-primary
+) 20px,
+    var(--color-primary
+) 110px,
+    var(--color-tertiary) 120px,
+    var(--color-tertiary) 200px
+  );
+  background: repeating-linear-gradient(
+    -55deg,
+    var(--color-tertiary) 0px,
+    var(--color-primary
+) 20px,
+    var(--color-primary
+) 110px,
+    var(--color-tertiary) 120px,
+    var(--color-tertiary) 200px
+	);
+    
+  -webkit-animation-name: MOVE-BG;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	
+  animation-name: MOVE-BG;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}

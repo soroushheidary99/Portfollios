@@ -1,0 +1,17 @@
+#About {
+  left: 200vw;
+  top: 100vh;
+}
+
+.container__about{
+  width: 40vw;
+}
+
+.container__about > p{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+#lanfw{
+  font-size: 1.2rem;
+}

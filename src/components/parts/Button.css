@@ -1,0 +1,50 @@
+    .coolBeans {
+    background-color: var(--color-primary);
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    border: 2px solid currentColor;
+    border-radius: inherit;
+    color: var(--color-secondary);
+    overflow: hidden;
+    padding: 1rem 2rem;
+    position: relative;
+    text-decoration: none;
+    transition: 0.2s transform ease-in-out;
+    will-change: transform;
+    z-index: 0;
+  }
+  .coolBeans::after {
+    background-color: var(--color-secondary);
+    border-radius: inherit;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, 0) rotate(10deg);
+    transform-origin: top left;
+    transition: 0.2s transform ease-out;
+    will-change: transform;
+    z-index: -1;
+  }
+  .coolBeans:hover::after {
+    transform: translate(0, 0);
+  }
+  .coolBeans:hover {
+    border: 2px solid transparent;
+    color: var(--color-primary);
+    transform: scale(1.1);
+    will-change: all;
+  }
+
+  .coolBeans:active {
+    transform: scale(1.2);
+  }
+
+
+  
+    
+  
