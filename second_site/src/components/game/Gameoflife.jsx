@@ -10,8 +10,10 @@ const cell_size = '20px';
 const epoch_time = 100;
 const pop_density = 0.8;
 const color_1 = 'transparent';
-const color_2 = 'yellow';
-var savedGrid = null;
+const color_2 = 'brown';
+var savedGrid = generateEmptyGrid();
+const flag = false;
+
 
 const operations = [
   [0, 1], [1, 1], [-1, -1], [0, -1], [-1, 0], [1, 0], [1, -1], [-1, 1]
@@ -66,7 +68,7 @@ const Gameoflife = () => {
   
   const runningRef = useRef();
   runningRef.current = running;
-
+  console.log(savedGrid);
   const runSimulation = useCallback(() => {
       if(!runningRef.current){
         return ;
@@ -131,6 +133,17 @@ const Gameoflife = () => {
             setGrid(loadGrid(savedGrid))
           }}>
             Load
+          </Button>
+          <Button onClick={() => {
+            flag=!flag;
+            if(flag){
+              document.documentElement.style.setProperty('--gofanim', 0);
+            }
+            else{
+            document.documentElement.style.setProperty('--gofanim', 500);
+            }
+          }}>
+            Trail
           </Button>
         </div>
   

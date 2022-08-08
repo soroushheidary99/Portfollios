@@ -16,7 +16,7 @@ import './App.css';
 
 function App() {
   return (<>
-    {/* <Begin /> */}
+    <Begin />
     <About />
     <Home />
     <Services />

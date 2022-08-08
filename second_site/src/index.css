@@ -42,16 +42,20 @@ html{
   --color-secondary: rgba(211, 16, 65, 0.785);
   --color-tertiary: rgb(4, 0, 90);
   --color-tertiary-bright: rgb(34, 0, 156);
-  --color-p: black; */
+  --color-p: black; 
+  --color-p-rev: white;*/
   --color-primary: indigo;
   --color-secondary: yellow;
   --color-tertiary: #55c79d;
   --color-tertiary-bright: #00ffa2; 
   --color-p: white;
+  --color-p-rev: black;
   --begin: grid;
   --beginopacity: 1;
   --mapDisplay: none;
   --mapOpacity: 0;
+  --transition: all 300ms ease;
+  --gofanim: 0ms;
 }
 
 section{
@@ -93,5 +97,10 @@ a {
   
 }
 p{
-  color: var(--color-p)
+  color: var(--color-p);
+  background-color: transparent;
+}
+
+img{
+  width: 45vh;
 }

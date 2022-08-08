@@ -32,7 +32,7 @@
 
 .cards{
   display: grid;
-  grid-template-columns: 2fr 5fr 1fr;
+  grid-template-columns: 3fr 4fr 1fr;
   width: 60vw;
   height: 50vh;
   margin: 0;
@@ -59,26 +59,12 @@
 .card__info{
   display: grid;
   place-items: center;
+  background-color: transparent;
+}
+
+.project_link{
+  background-color: transparent;
 }
 
 
-@keyframes untapbutton {
-  0%{
-    filter: blur(0px);
-  }
-  50%{
-    filter: blur(100px);
-  }
-  100%{
-    filter: blur(0px);
-  }
-}
 
-@keyframes anim {
-  from{
-    transform: scale(0);
-  }
-  from{
-    transform: scale(2);
-  }
-}

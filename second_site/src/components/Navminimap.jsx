@@ -25,14 +25,11 @@ function Navminimap() {
 //         }
         
 //     }
-    // useEffect(() => {MapToggle(mapdisplay)}, [mapdisplay])
-
 
     
     function MapToggle(){
         
         let d = getComputedStyle(document.documentElement).getPropertyValue('--mapDisplay')
-        console.log(d);
         let t1 = null;
         let t2 = null;
         
@@ -66,25 +63,25 @@ function Navminimap() {
                 <a className='cells desccell'></a>
                 <a className='cells desccell'></a>
                 <a className='cells'></a>
-                <a href='#Home' className='cells'><RiHome5Line className='icon-big'/></a>
-                <a href='#About' className='cells'><RiContactsLine className='icons' /></a>
-                <a href='#Contact' className='cells'><AiOutlinePhone className='icon-big'/></a>
+                <a href='#Home' className='cells' onClick={() => MapToggle()}><RiHome5Line className='icon-big' /></a>
+                <a href='#About' className='cells' onClick={() => MapToggle()}><RiContactsLine className='icons' /></a>
+                <a href='#Contact' className='cells' onClick={() => MapToggle()}><AiOutlinePhone className='icon-big'/></a>
                 <a className='cells'></a>
                 <a className='cells'></a>
-                <a href='#Skills' className='cells'><GiMuscleUp className='icon-big' /></a>
-                <a className='cells'></a>
-                <a className='cells'></a>
-                <a className='cells'></a>
-                <a href='#Projects1' className='cells'><FaLaptopCode className='icons' /></a>
-                <a href='#Services' className='cells'><RiServiceLine className='icon-big' /></a>
-                <a href='#Projects2' className='cells'><FaLaptopCode className='icons' /></a>
+                <a href='#Skills' className='cells' onClick={() => MapToggle()}><GiMuscleUp className='icon-big' /></a>
                 <a className='cells'></a>
                 <a className='cells'></a>
                 <a className='cells'></a>
-                <a href='#Projects3' className='cells'><FaLaptopCode className='icon-big'/></a>
+                <a href='#Projects1' className='cells' onClick={() => MapToggle()}><FaLaptopCode className='icons' /></a>
+                <a href='#Services' className='cells' onClick={() => MapToggle()}><RiServiceLine className='icon-big' /></a>
+                <a href='#Projects2' className='cells' onClick={() => MapToggle()}><FaLaptopCode className='icons' /></a>
                 <a className='cells'></a>
                 <a className='cells'></a>
-                <a href='#Gameroom' className='cells'><RiGameLine className='icon-big'/></a>
+                <a className='cells'></a>
+                <a href='#Projects3' className='cells' onClick={() => MapToggle()}><FaLaptopCode className='icon-big'/></a>
+                <a className='cells'></a>
+                <a className='cells'></a>
+                <a href='#Gameroom' className='cells' onClick={() => MapToggle()}><RiGameLine className='icon-big'/></a>
             </div>
         </>
     )

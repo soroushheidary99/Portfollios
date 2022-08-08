@@ -1,3 +1,5 @@
+
+
 .gamegrid{
   background-color: var(--color-primary);
   border: 2px dashed var(--color-tertiary);
@@ -6,7 +8,7 @@
 }
 
 .cell{
-  transition: all 0ms ease-in-out;
+  transition: all var(--gofanim) ease-out;
   box-shadow: inset 0px 0px 0px 1px var(--color-primary);
 }
 

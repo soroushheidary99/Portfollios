@@ -22,7 +22,12 @@ function Begin() {
         
     return (
         <div className='beginPage' id='beginPage'>
-            <Button id='BeginButton' onClick={() => Begin()}>Begin?</Button>
+            <p className='begin_p'>This is still development, and I am still new to the web dev world, for now it is suggested that you use a widescreen display</p>
+            <p className='begin_p begin_p2'>Also be sure to checkout the game of life section, personally i think the Conway's Game of Life is beyond underrated</p>
+            <div className='begin_buttons'>
+                <Button id='BeginButton' onClick={() => Begin()}>I Undrestand :D</Button>
+                <Button id='BeginButton'>I Will Sue You!</Button>
+            </div>
         </div>
     )
 }

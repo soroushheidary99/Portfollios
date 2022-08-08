@@ -11,12 +11,14 @@ const Home = () => {
             document.documentElement.style.setProperty('--color-tertiary', 'rgb(4, 0, 90)');
             document.documentElement.style.setProperty('--color-tertiary-bright', 'rgb(34, 0, 156)');
             document.documentElement.style.setProperty('--color-p', 'black');
+            document.documentElement.style.setProperty('--color-p-rev', 'white');
         }else if(x==2){
             document.documentElement.style.setProperty('--color-primary', 'indigo');
             document.documentElement.style.setProperty('--color-secondary', 'yellow');
             document.documentElement.style.setProperty('--color-tertiary', '#55c79d');
             document.documentElement.style.setProperty('--color-tertiary-bright', '#00ffa2');
             document.documentElement.style.setProperty('--color-p', 'white');
+            document.documentElement.style.setProperty('--color-p-rev', 'black');
         }
     }
     return (<>
