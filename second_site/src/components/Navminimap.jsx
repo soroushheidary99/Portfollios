@@ -33,10 +33,10 @@ function Navminimap() {
         let t1 = null;
         let t2 = null;
         
-        if(d=='grid'){
+        if(d==='grid'){
             t1 = setTimeout(() => {document.documentElement.style.setProperty('--mapOpacity', '0')}, '0');
             t2 = setTimeout(() => {document.documentElement.style.setProperty('--mapDisplay', 'none')}, '300');
-        }else if(d=='none'){
+        }else{
             t2 = setTimeout(() => {document.documentElement.style.setProperty('--mapOpacity', '1')}, '300');
             t1 = setTimeout(() => {document.documentElement.style.setProperty('--mapDisplay', 'grid')}, '0');
             }
