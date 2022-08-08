@@ -6,10 +6,10 @@ import Waves from './parts/Waves.jsx'
 
 import pic_1 from './../assets/airbnb.png'
 import pic_2 from './../assets/recom-spotify.png'
-import pic_3 from './../assets/corona2.png'
-import pic_4 from './../assets/umap.png'
-import pic_5 from './../assets/img-comp.png'
-import pic_6 from './../assets/audio-spectral.png'
+import pic_3 from '../assets/corona2.png'
+import pic_4 from '../assets/umap.png'
+import pic_5 from '../assets/img-comp.png'
+import pic_6 from '../assets/audio-spectral.png'
 
 const Projects2 = () => {
 
