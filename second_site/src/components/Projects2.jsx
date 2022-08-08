@@ -23,7 +23,7 @@ const Projects2 = () => {
     const l_list = ['https://github.com/soroushheidary99/CS-SBU-DataMining-MSc-2022/tree/main/submits/96222031/test_project', 
                     'https://github.com/soroushheidary99/Data-Mining-Course/tree/main/3%20-%20Spotify%20Reccomender%20System', 
                     'https://github.com/soroushheidary99/Data-Analysis-Transofrmation/tree/main/Covid-19%20Reports%20Analysis', 
-                    'https://github.com/', 
+                    'https://www.kaggle.com/code/soroushheidary1999/umap-hdbscan/notebook', 
                     'https://github.com/soroushheidary99/Computer-Vision/tree/main/CV%20Image%20Compression%20K-means', 
                     'https://github.com/soroushheidary99/Neural-Network-Course/tree/main/Project%205%20(Audio%20Processing%20LSTM%2BCNN)'];
     const n_card = p_list.length;
