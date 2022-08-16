@@ -4,17 +4,19 @@
 }
 
 .container__about{
-  width: 40vw;
+  width: 60vw;
   
 }
 
 .container__about > p{
+  margin-left: 12rem;
   margin-top: 1rem;
   font-size: 1.5rem;
 }
 
 #lanfw{
   font-size: 1.2rem;
+  margin-left: 20rem;
 }
 
 
@@ -23,16 +25,19 @@
 
 @media screen and (max-width: 600px){
   .container__about{
+    margin-left: 0rem;
     width: 90vw;
   }
   
   .container__about > p{
     margin-top: 0rem;
     font-size: 1.2rem;
+    margin-left: 0;
   }
   
   #lanfw{
     font-size: 1rem;
+    margin-left: 0;
   }
   
 }

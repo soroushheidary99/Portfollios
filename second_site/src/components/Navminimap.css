@@ -110,3 +110,19 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .gridmap{
+        width: 80vw;
+    }
+    .cells{
+        width: 12vw;
+        height: 8vh;
+    }
+}

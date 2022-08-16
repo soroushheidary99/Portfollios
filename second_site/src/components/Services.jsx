@@ -25,17 +25,17 @@ const Services = () => {
     return (<>
         <section id="Services">
             <Waves className='waveChanger2'/> 
-            <div className='auxilaryContainer_Services'>
+            <div className=' '>
                 <p>We all know about the famouse Data Science Pyramid, this is my undrestanding of it, hover over each part for a quick peek</p>
                 <div className='pyramid'>
-                    <div id='pyramid_1' onPointerOver={() => toggle_text('pyramid_1')} className='pyramid_part pyramid_head'>
+                    <a href='#Projects1' id='pyramid_1' onPointerOver={() => toggle_text('pyramid_1')} className='pyramid_part pyramid_head'>
                         <div className='pyramid_icons'><MdDoubleArrow className='pyramid_icons pi1'/></div>
                         <div className='pyramid_desc'>Deep Learning Engineering</div>
                         <div className='pyramid_desc'>Machine Learning Engineering</div>
                         <div className='pyramid_desc'>A/B Testing</div>
                         <div class='pyramid_title'>Learn & Optimize: Research through modeling</div>
-                    </div>
-                    <div id='pyramid_2' onPointerOver={() => toggle_text('pyramid_2')} className='pyramid_part pyramid_body'>
+                    </a>
+                    <a href='#Projects2' id='pyramid_2' onPointerOver={() => toggle_text('pyramid_2')} className='pyramid_part pyramid_body'>
                         <div className='pyramid_icons'><MdDoubleArrow className='pyramid_icons pi2'/></div>
                         <div className='pyramid_desc'>Dashboard Creation</div>
                         <div className='pyramid_desc'>Feature Engineering</div>
@@ -44,15 +44,15 @@ const Services = () => {
                         <div className='pyramid_desc'>Data Wrangling</div>
                         <div className='pyramid_desc'>Data Cleaning</div>
                         <div class='pyramid_title'>Explore & Transform: Flourish Data & Extract insights</div>
-                    </div>
-                    <div id='pyramid_3' onPointerOver={() => toggle_text('pyramid_3')} className='pyramid_part pyramid_foot'>
+                    </a>
+                    <a href='#Projects3' id='pyramid_3' onPointerOver={() => toggle_text('pyramid_3')} className='pyramid_part pyramid_foot'>
                         <div className='pyramid_icons'><MdDoubleArrow className='pyramid_icons pi3'/></div>
                         <div className='pyramid_desc'>Parallel Data Preprocessing</div>
                         <div className='pyramid_desc'>Big Data technologies</div>
                         <div className='pyramid_desc'>DevOps / MLOps</div>
                         <div className='pyramid_desc'>Software Engineering</div>
                         <div class='pyramid_title'>Adquisition: Collect, Store & Stream Data</div>
-                    </div>
+                    </a>
                 </div>
 
             </div>
