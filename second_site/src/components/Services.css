@@ -3,14 +3,6 @@
   top: 300vh;
 }
 
-.auxilaryContainer_Services > p {
-  width: 20vw;
-  top: 0;
-  font-size: 2rem;
-  position: absolute;
-  top: 10vh;
-  left: 10vw;
-}
 
 .auxilaryContainer_Services{
   display: grid;
@@ -21,6 +13,7 @@
 
 
 .pyramid{
+  border: 1px solid red;
   position: relative;
   left: 25vw;
   top: 10vh;
@@ -96,4 +89,51 @@
 
 .pi1{
   transform: rotate(180deg);
+}
+
+
+@media screen and (max-width: 600px){
+  .pyramid_icons{
+    font-size: 1rem;
+  }
+  .auxilaryContainer_Services{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .auxilaryContainer_Services > p {
+    width: 90vw;
+    top: 0;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+  }
+  .pyramid{
+    left: 0vw;
+    top: 20vh;
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    background-color: transparent;
+    overflow: hidden;
+    transition: all 500ms ease;
+  }
+  .pyramid_part{
+    width: 80vw;
+  }
+  .pyramid_part:hover .pyramid_title{
+    font-size: 1rem;
+    width: 80vw;
+    text-indent: 2rem;
+  }
+  .pyramid_part:hover{
+    font-size: 1rem;
+  }
+  
+
 }

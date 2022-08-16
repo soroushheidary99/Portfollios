@@ -79,3 +79,45 @@
   margin-left: 2rem;
 }
 
+
+@media screen and (max-width: 600px){
+  .auxilaryContainer{
+    margin: 0;
+    margin-top: 4rem;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    width: 80vw;
+    height:80vh;
+    padding: 0.2rem;
+  }
+  .cards__button{
+    font-size: 1rem;
+  }
+  .cards__buttons__container{
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 0.5rem;
+    transform: translateX(0);
+    padding: 0.1rem;
+    width: 100%;
+    margin: 0;
+  }
+  .card__info > p{
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .card__image__container{
+    height: 12rem;
+  }
+  .card__image{
+    height: 12rem;
+  }
+  
+}

@@ -29,4 +29,13 @@
   gap: 1rem;
 }
 
-
+@media screen and (max-width: 600px){
+  .container__buttons__game{
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.1rem;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+  }
+}

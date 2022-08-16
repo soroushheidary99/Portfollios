@@ -9,7 +9,7 @@ const About = () => {
     return (<>
 
         <section id="About">
-        <div className='waveChanger1'>
+        <div>
             <Waves />
         </div>
             <div className='container container__about'>

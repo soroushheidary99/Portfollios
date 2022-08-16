@@ -45,6 +45,12 @@
   }
 
 
+  @media screen and (max-width: 600px){
+    .coolBeans {
+      font-family: inherit;
+      font-size: 1.5rem;
+    }
+  }
   
     
   

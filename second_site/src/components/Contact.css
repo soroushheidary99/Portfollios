@@ -93,54 +93,42 @@ input, textarea{
 
 
 
-
-
-@media screen and (max-width: 1024px){
-  .container.contact__container{
-      justify-content: center;
-      align-items: center;
-      grid-template-columns: 1fr;
-      gap: 4%
-  }
-  .contact__options {
-      height: 20vh;
-      flex-direction: row;
-      gap: 1.2rem;
-  }
-  .contact__option-icon {
-      font-size: 1.5rem;
-      margin-bottom: 0.2rem;;
-  }
-  #form_contact{
-      gap: 1rem;
-  }
-  .contact__option a {
-      margin-top: 0.3rem;
-      display: block;
-      font-size: 0.6rem;
-  }
-}
-
-
 @media screen and (max-width: 600px){
+  
+  
   .container.contact__container{
-      grid-template-columns: 1fr;
-      gap: -6rem;
-      padding-top: 0rem;
-      transform: translateY(-2rem);
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20%;
+
   }
   .contact__options {
-      height: 20vh;
-      flex-direction: row;
-      gap: 0.8rem;
-      
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    padding: 0.1rem;
   }
-  .contact__option h4, h5{
-      font-size: 0.6rem;
-      font-weight: 100;
+  .contact__option{
+    margin: 0;
+    overflow: scroll;
+    padding: 0.2rem;
   }
-  #form_contact{
-      gap: 0.5rem;
-      transform: translateY(-8rem);
+
+  .container{
+    margin: 0;
+    padding: 1rem;
+    width: 90vw;
+    height: 80vh;
   }
+  h6{
+    font-size: 0.8rem;
+  }
+  
+  .contact__container{
+    width: 90vw;
+    height: 80vh;
+  }
+
 }

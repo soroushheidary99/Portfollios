@@ -4,7 +4,7 @@ import {produce} from 'immer'
 import Button from '../parts/Button.jsx'
 import ClickNHold from 'react-click-n-hold'; 
 
-const numRows = 25;
+const numRows = 60;
 const numCols = 60;
 const cell_size = '20px';
 const epoch_time = 100;

@@ -50,3 +50,15 @@
     filter: blur(10px)
 }
 
+
+
+@media screen and (max-width: 600px){
+    .begin_p2{
+        margin-top: -20vh;
+        font-size: 1rem;
+    }
+
+}
+    
+  
+  

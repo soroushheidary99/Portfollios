@@ -5,6 +5,7 @@
 
 .container__about{
   width: 40vw;
+  
 }
 
 .container__about > p{
@@ -14,4 +15,24 @@
 
 #lanfw{
   font-size: 1.2rem;
+}
+
+
+/* ============================================================================== */
+
+
+@media screen and (max-width: 600px){
+  .container__about{
+    width: 90vw;
+  }
+  
+  .container__about > p{
+    margin-top: 0rem;
+    font-size: 1.2rem;
+  }
+  
+  #lanfw{
+    font-size: 1rem;
+  }
+  
 }

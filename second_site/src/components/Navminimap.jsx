@@ -32,11 +32,12 @@ function Navminimap() {
         let d = getComputedStyle(document.documentElement).getPropertyValue('--mapDisplay')
         let t1 = null;
         let t2 = null;
-        
+        console.log(d)
         if(d==='grid'){
             t1 = setTimeout(() => {document.documentElement.style.setProperty('--mapOpacity', '0')}, '0');
             t2 = setTimeout(() => {document.documentElement.style.setProperty('--mapDisplay', 'none')}, '300');
         }else{
+            console.log(1)
             t2 = setTimeout(() => {document.documentElement.style.setProperty('--mapOpacity', '1')}, '300');
             t1 = setTimeout(() => {document.documentElement.style.setProperty('--mapDisplay', 'grid')}, '0');
             }

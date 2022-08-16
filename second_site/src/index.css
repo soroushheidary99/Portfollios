@@ -104,3 +104,29 @@ p{
 img{
   width: 45vh;
 }
+/* ============================================================================== */
+
+
+@media screen and (max-width: 600px){
+  p {
+    font-size: 1rem;
+    font-weight: 100;
+    color: var(--color-p);
+  }
+  
+  h1, h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--color-tertiary-bright)
+  }
+  
+  h3, h4, h5, h6{
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--color-tertiary-bright)
+  }
+  
+  .container{
+    padding: 10vh 10vw;
+  }
+}
