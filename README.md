@@ -4,6 +4,7 @@
 https://portfollios.vercel.app/
 
 
-## There's another project which i intneded to test the GSAP functionality on which you can visit here: (not using react but vanilla js and parcel budndler)
+## There's another project which I intneded to test the GSAP functionality on which you can visit here: (not using react but vanilla js and parcel budndler)
 https://parcel-gsap.vercel.app/
+I'll put the code on this repo soon, the site currently has some performance + responsiveness issues 
 
