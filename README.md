@@ -8,3 +8,9 @@ https://portfollios.vercel.app/
 https://parcel-gsap.vercel.app/
 I'll put the code on this repo soon, the site currently has some performance + responsiveness issues 
 
+
+
+
+if you want to clone the repo: 
+u need to install the dependencies with npm install (location=global recomended) then
+you can use the npm start script to run it on your own local host env
