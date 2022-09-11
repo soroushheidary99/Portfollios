@@ -30,7 +30,7 @@
     background-color: white;
 }
 .mapGrid:active{
-    transform: scale(5);
+    transform: scale(1.2);
 }
 
 .gridmap{
@@ -70,7 +70,7 @@
     color: black;
 }
 .cells:active{
-    transform: scale(5);
+    transform: scale(2);
 }
 
 .icon-big{

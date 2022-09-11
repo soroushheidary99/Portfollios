@@ -35,10 +35,10 @@ function Navminimap() {
         console.log(d)
         if(d==='grid'){
             t1 = setTimeout(() => {document.documentElement.style.setProperty('--mapOpacity', '0')}, '0');
-            t2 = setTimeout(() => {document.documentElement.style.setProperty('--mapDisplay', 'none')}, '300');
+            t2 = setTimeout(() => {document.documentElement.style.setProperty('--mapDisplay', 'none')}, '100ms');
         }else{
             console.log(1)
-            t2 = setTimeout(() => {document.documentElement.style.setProperty('--mapOpacity', '1')}, '300');
+            t2 = setTimeout(() => {document.documentElement.style.setProperty('--mapOpacity', '1')}, '100ms');
             t1 = setTimeout(() => {document.documentElement.style.setProperty('--mapDisplay', 'grid')}, '0');
             }
         return (
@@ -50,7 +50,7 @@ function Navminimap() {
             <button onClick={() => MapToggle()} className='mapGrid'><BsFillPinMapFill className='icons'/></button> 
             
             <div className='gridmap' id='minimap'>
-                <div class='mapdescription'>
+                <div className='mapdescription'>
                     <div className='desc'><RiHome5Line className='icons'/> Home</div>
                     <div className='desc'><GiMuscleUp className='icons'/> Skills</div>
                     <div className='desc'><RiContactsLine className='icons'/> About</div>

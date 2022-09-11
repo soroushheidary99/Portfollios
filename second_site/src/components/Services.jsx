@@ -33,7 +33,7 @@ const Services = () => {
                         <div className='pyramid_desc'>Deep Learning Engineering</div>
                         <div className='pyramid_desc'>Machine Learning Engineering</div>
                         <div className='pyramid_desc'>A/B Testing</div>
-                        <div class='pyramid_title'>Learn & Optimize: Research through modeling</div>
+                        <div className='pyramid_title'>Learn & Optimize: Research through modeling</div>
                     </a>
                     <a href='#Projects2' id='pyramid_2' onPointerOver={() => toggle_text('pyramid_2')} className='pyramid_part pyramid_body'>
                         <div className='pyramid_icons'><MdDoubleArrow className='pyramid_icons pi2'/></div>
@@ -43,7 +43,7 @@ const Services = () => {
                         <div className='pyramid_desc'>Data Aggrigations</div>
                         <div className='pyramid_desc'>Data Wrangling</div>
                         <div className='pyramid_desc'>Data Cleaning</div>
-                        <div class='pyramid_title'>Explore & Transform: Flourish Data & Extract insights</div>
+                        <div className='pyramid_title'>Explore & Transform: Flourish Data & Extract insights</div>
                     </a>
                     <a href='#Projects3' id='pyramid_3' onPointerOver={() => toggle_text('pyramid_3')} className='pyramid_part pyramid_foot'>
                         <div className='pyramid_icons'><MdDoubleArrow className='pyramid_icons pi3'/></div>
@@ -51,7 +51,7 @@ const Services = () => {
                         <div className='pyramid_desc'>Big Data technologies</div>
                         <div className='pyramid_desc'>DevOps / MLOps</div>
                         <div className='pyramid_desc'>Software Engineering</div>
-                        <div class='pyramid_title'>Adquisition: Collect, Store & Stream Data</div>
+                        <div className='pyramid_title'>Adquisition: Collect, Store & Stream Data</div>
                     </a>
                 </div>
 

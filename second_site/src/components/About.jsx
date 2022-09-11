@@ -14,9 +14,9 @@ const About = () => {
         </div>
             <div className='container container__about'>
                 <h3>About Me</h3>
-                <p>I'm a CS graduate from Shahid-Beheshti-University who likes to learn new concepts and technologies :D</p>
-                <p>I'm mainly focused on datascience especially data transformations and analysis though learning about Computer Vision and NLP always fascinate me</p>
-                <p id='lanfw'>I also enjoy designing & implementing webpages as a personal intrest (i've just started learning frontend-development so expect a lot of bugs here :D. this portfolio site is the second frontend project which I will be learning the basics of React.js from</p>
+                <p>CS Bsc Graduate from SBU and Ms Datamining Student in AUT (currently)</p>
+                <p>I'm mainly focused on datascience and datamining though learning about Computer Vision and NLP always fascinate me</p>
+                <p id='lanfw'>Also I love artificial life simulations using AI genetic algorithms (conwoy's game of life is a simple example of what could be done with these, check the section out :D</p>
             </div>    
         </section> 
         

@@ -2,6 +2,7 @@
   left: 300vw;
   top: 400vh;
   position: relative;
+  isolation: isolate;
 }
 
 .container__game{
@@ -12,5 +13,6 @@
 @media screen and (max-width: 600px){
   .container__game{
     padding: 0;
+    margin: 1rem;
   }
 }
